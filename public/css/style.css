@@ -199,3 +199,7 @@ ul {
 		display: none;
 	}
 }
+
+#room-name {
+	display: inline;
+}
