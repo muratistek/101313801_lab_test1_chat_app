@@ -88,17 +88,17 @@ ul {
 }
 
 
-.chat-msg {
+.chat-msgs {
 	overflow-y: scroll;
 	max-height: 500px;
 	padding: 30px;
 }
 
-.chat-msg .message .meta span {
+.chat-msgs .message .msgInfo span {
 	color: #777;
 }
 
-.chat-msg .message .meta {
+.chat-msgs .message .msgInfo {
 	font-size: 15px;
 	font-weight: bold;
 	color: var(--dark-color-b);
@@ -107,7 +107,7 @@ ul {
 }
 
 
-.chat-msg .message {
+.chat-msgs .message {
 	margin-bottom: 15px;
 	overflow-wrap: break-word;
 	padding: 10px;
